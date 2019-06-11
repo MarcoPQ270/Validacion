@@ -1,0 +1,11 @@
+commit caa4b92aa006262961c4b20af358b3fb1e69587e
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:14:21 2019 -0500
+
+    Se cambio el titulo y se agrego un fondo a la pagina
+
+commit d362e84df96f2a76ba1bdfb4a7d2094a8747c168
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:07:42 2019 -0500
+
+    Version 1
