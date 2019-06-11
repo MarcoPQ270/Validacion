@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="section container">
+       <h3 align="center" color="blue">Ingreso de datos</h3>
+        <div class="row">
+            <form class="col s12" action="" method="GET" id="formulario">
+                <div class="row card-panel">
+                    <div class="input-field col s12">
+                        <input type="email" id="correo" name="correo">
+                        <label for="correo">Correo:</label>
+                    </div>
+                    <div class="input-field col s12">
+                            <input type="password" id="pwd" name="pwd">
+                            <label for="Contraseña">Contraseña:</label>
+                        </div>
+                    <div class="input-field col s12">
+                        <input type="date" name="fecha" id="fecha">    
+                        <label for="fecha">Fecha de registro: </label>
+                    </div>
+                    <div class="input-field col m12 s12">
+                        <label>Sexo</label><br>
+                        <p>
+                            <label>
+                                <input class="with-gap" type="radio" name="sex" id="sex" value="h">
+                                <span>Hombre</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" type="radio" name="sex" id="sex" value="m" checked>
+                                <span>Mujer</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field col 12">
+                        <input type="number" id="ingreso" name="ingreso">
+                        <label for="ingreso">Sueldo</label>
+                    </div>
+                    <div class="input-field col s12 ">
+                        <select id="dpto" name="dpto">
+                            <option id="1" name="1">Gestion Empresarial</option>
+                            <option id="2" name="2">Tecnologias de la informacion y comunicacion</option>
+                            <option id="3" name="3">Hidrologica</option>
+                            <option id="4" name="4">Agronomia</option>
+                            <option id="5" name="5">Industrias alimentarias</option>
+                        </select>
+                        <label>Selecciona tu departamento</label>
+                    </div>
+                    <div class="input-field col s12">
+                    <button type="submit" id="btn" name="btn" class="btn waves-effect waves-light">
+                            <i class="material-icons edit">
+                                android
+                            </i>Enviar
+                        </button>
+                    </div>
+                </div> 
+            </form>
+        </div>
+    </div>
+     <!--JavaScript at end of body for optimized loading-->
+     <script type="text/javascript" src="./js/materialize.min.js"></script>
+     <script src="./js/jquery-2.1.1.min.js"></script>
+     <script src="./js/jquery.validate.min.js"></script>
+    <script src="./RegistroVal.js"></script>
+<script src="./new.js"></script>
+     
+</body>
+</html>
+
+
+
+
+
+
+
