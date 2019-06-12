@@ -1,0 +1,23 @@
+[33mcommit e7885fa2ffd007695b4bbe346da22240110d7708[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mtest[m[33m)[m
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:53:37 2019 -0500
+
+    Se agrego un nuevo campo en el html y se agrego la validacion en el javascript
+
+[33mcommit 35fff45cb30c2c2dd0f74d3e21f44eb156bb162b[m
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:44:05 2019 -0500
+
+    Se cambio el color del titulo y del boton
+
+[33mcommit caa4b92aa006262961c4b20af358b3fb1e69587e[m
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:14:21 2019 -0500
+
+    Se cambio el titulo y se agrego un fondo a la pagina
+
+[33mcommit d362e84df96f2a76ba1bdfb4a7d2094a8747c168[m
+Author: MarcoPQ <marco.balderaspq@gmail.com>
+Date:   Tue Jun 11 18:07:42 2019 -0500
+
+    Version 1
