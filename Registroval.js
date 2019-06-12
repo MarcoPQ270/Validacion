@@ -37,5 +37,4 @@ function init(){
 }
 function saveData(){
     alert("Formulario Enviado");
-    M.toast({html: 'Formuario Enviado', classes: 'rounded', displayLength: 4000});
 }
